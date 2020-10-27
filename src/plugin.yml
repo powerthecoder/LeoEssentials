@@ -7,3 +7,9 @@ api: "1.16"
 
 commands:
   about:
+  gm:
+  gmc:
+  gms:
+  speed:
+  bc:
+  
