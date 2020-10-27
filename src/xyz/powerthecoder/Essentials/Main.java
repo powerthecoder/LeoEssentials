@@ -42,6 +42,21 @@ public class Main extends JavaPlugin implements Listener {
 		}
 		
 		
+		// Help Menu
+		if (label.equalsIgnoreCase("e_help")) {
+			if(!(sender instanceof Player)) {
+				sender.sendMessage("/gmc Creative Mode");
+				sender.sendMessage("/gms Survival Mode");
+				sender.sendMessage("/bc Broadcast A Message");
+				sender.sendMessage("/speed Give yourself speed hacks");
+			}
+			Player player = (Player) sender;
+			player.sendMessage("/gmc Creative Mode");
+			player.sendMessage("/gms Survival Mode");
+			player.sendMessage("/bc Broadcast A Message");
+			player.sendMessage("/speed Give yourself speed hacks");
+		}
+		
 		// GameMode
 		if (label.equalsIgnoreCase("gm")) {
 			if(!(sender instanceof Player)) {
