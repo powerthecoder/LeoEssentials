@@ -1,0 +1,9 @@
+
+main: "xyz.powerthecoder.Essentials"
+name: "Leo Essentials"
+version: "1.0"
+author: "Leo Power"
+api: "1.16"
+
+commands:
+  about:
