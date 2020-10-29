@@ -1,2 +1,2 @@
 # LeoEssentials
- Leo's Essentials self developed
+ Minecraft Plugin Leo's Essentials self developed
